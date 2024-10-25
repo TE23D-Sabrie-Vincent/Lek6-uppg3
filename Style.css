@@ -1,4 +1,27 @@
 body{
  display: grid;
- 
+
+ grid-template-columns: 10fr 100fr 10fr;
+ grid-template-rows: 20vh 20vh 100vh;
+
+ background-image:  url('./img/winter_bg3.jpg');
+ background-size: cover
+}
+
+img{
+    height: 100%;
+}
+
+.header-fin-rubrik{
+    background-color: gray;
+    color: rgb(220, 220, 220);
+    text-align: center;
+    font-size: x-large;
+}
+
+.låda-under-rubrik-klass{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-color: gray;
+    border: solid 1,5px black;
 }
