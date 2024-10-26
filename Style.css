@@ -3,6 +3,7 @@ body{
 
  grid-template-columns: 10fr 100fr 10fr;
  grid-template-rows: 20vh 20vh 100vh;
+ gap: 5px;
 
  background-image:  url('./img/winter_bg3.jpg');
  background-size: cover
@@ -20,8 +21,66 @@ img{
 }
 
 .låda-under-rubrik-klass{
+    margin: auto;
+    padding-right: 125px;
     grid-row: 2/3;
     grid-column: 2/3;
     background-color: gray;
-    border: solid 1,5px black;
+    border: solid 2px black;
+    color: white;
+}
+
+.december-klass{
+    color: red;
+    background-color: white;
+}
+
+.Januari-klass{
+    background-color: lightgreen;
+}
+
+/* .main-kalender-klass{
+    background-color: beige;
+    border: 1.5px solid lightgrey;
+    grid-row: 3/3;
+    grid-column: 2/3;
+} 
+.veckodag{
+    background-color: lightslategray;
+} */
+
+.calendar-container {
+    background-color: #F6E9DC;
+    padding: 20px;
+    border: 2px solid #000;
+    width: auto;
+    text-align: center;
+    grid-row: 3/3;
+    grid-column: 2/3;
+}
+
+.header {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.days-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 1.5px;
+}
+
+.day {
+    background-color: #ccc;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #000;
+}
+
+.date {
+    background-color: #F6E9DC;
+    padding: 15px;
+    font-size: 1.5em;
+    border: 1px solid #000;
 }
