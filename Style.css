@@ -68,7 +68,7 @@ img{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    gap: 1.5px;
+    /* gap: 1.5px; */
 }
 
 .day {
@@ -76,6 +76,7 @@ img{
     padding: 10px;
     font-weight: bold;
     border: 1px solid #000;
+    
 }
 
 .date {
